@@ -29,11 +29,12 @@
 .container {
 
   width: 40%;
-  background-color: #fff;
+  background-color: #1863a0;
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   position: relative;
+  color: white;
 }
 
 
@@ -41,6 +42,7 @@
   font-size: 25px;
   font-weight: 500;
   position: relative;
+  color: white;
 }
 
 .content form .user-details {
@@ -71,6 +73,7 @@ form .input-box span.details {
   border: 1px solid #ccc;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
+  align-items: center;
 }
 
 .user-details .input-box input:focus,

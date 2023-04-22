@@ -27,7 +27,7 @@ function App() {
     <div className="App">
 
       <header>
-        <button onClick={goToUsersList}>Click me</button>
+        <button onClick={goToUsersList}>Users List</button>
         <ul>
           {token ?
             <li>
